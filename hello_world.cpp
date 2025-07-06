@@ -1,7 +1,7 @@
-include <iostream>
+#include <iostream> //added # to fix <iostream>
 using namespace std;
 
-main int(){
+int main(){ //fixed main by switching int and main
     cout << "Hello World" << endl;
     return 0;
 }
